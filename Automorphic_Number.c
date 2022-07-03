@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    long int n,sqr,rev1=0,rev2=0,m,sount=0,cout=0 ;
+    long int n,sqr,rev1=0,rev2=0,m,sount=0,cout=0;
     scanf("%ld",&n);
     sqr=n*n;
     while(n>0)
@@ -13,7 +13,7 @@ int main()
     }
     while(sqr>0)
     {
-        m=sqr%10;
+         m=sqr%10;
         cout++;
         rev2=(rev2*10)+m;
         if(sount==cout)

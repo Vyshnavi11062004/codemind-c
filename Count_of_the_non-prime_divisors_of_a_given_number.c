@@ -6,6 +6,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
+        
         {
             fact=0;
             for(j=1;j<=i;j++)

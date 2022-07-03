@@ -1,5 +1,6 @@
-#include<stdio.h>
 #include<string.h>
+#include<stdio.h>
+#include<math.h>
 int main()
 {
     char s[100];
@@ -10,8 +11,8 @@ int main()
     {
         if(s[i]=='6')
         {
-            s[i]='9';
-            break;
+             s[i]='9';
+             break;
         }
     }
     printf("%s",s);
